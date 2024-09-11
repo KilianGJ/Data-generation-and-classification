@@ -44,7 +44,7 @@ public class GenerateInfoFiles {
 
     // Method to generate a file with seller information
     public static void createSalesManInfoFile(int salesManCount) throws IOException {
-        String fileName = "salesMen_info.txt";
+        String fileName = "seller_info.txt";
         FileWriter fileWriter = new FileWriter(fileName);
         Random random = new Random();
 
